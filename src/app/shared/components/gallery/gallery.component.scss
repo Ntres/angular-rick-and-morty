@@ -1,0 +1,10 @@
+.c-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    &__img {
+        border-radius: 50%;
+    }
+}

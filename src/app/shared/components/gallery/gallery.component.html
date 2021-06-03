@@ -1,0 +1,6 @@
+<section class="c-gallery">
+    <div *ngFor="let character of characters">
+        <img src="{{ character.image }}" style="border-radius: 50%" class="c-gallery__img" />
+        <h2>{{ character.name }}</h2>
+    </div>
+</section>
